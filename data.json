@@ -1,0 +1,206 @@
+{
+  "categories": [
+    {
+      "id": "cat_tech",
+      "name": "Tecnología",
+      "iconName": "computer",
+      "episodeCount": 14
+    },
+    {
+      "id": "cat_music",
+      "name": "Música & Producción",
+      "iconName": "music_note",
+      "episodeCount": 9
+    },
+    {
+      "id": "cat_gaming",
+      "name": "Gaming & Esports",
+      "iconName": "sports_esports",
+      "episodeCount": 12
+    },
+    {
+      "id": "cat_science",
+      "name": "Ciencia & Futuro",
+      "iconName": "science",
+      "episodeCount": 8
+    },
+    {
+      "id": "cat_culture",
+      "name": "Cultura Pop",
+      "iconName": "movie",
+      "episodeCount": 11
+    }
+  ],
+  "podcasts": [
+    {
+      "id": "pod_1",
+      "title": "Code & Coffee",
+      "description": "Charlas profundas sobre desarrollo de software, arquitectura de sistemas y tendencias tecnológicas.",
+      "host": "Carlos Mendoza",
+      "coverUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+      "category": "Tecnología",
+      "episodesCount": 42,
+      "rating": 4.9
+    },
+    {
+      "id": "pod_2",
+      "title": "Ondas Sintéticas",
+      "description": "Explorando la música electrónica, síntesis de sonido y producción en estudio.",
+      "host": "Elena Ramos",
+      "coverUrl": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04",
+      "category": "Música & Producción",
+      "episodesCount": 28,
+      "rating": 4.8
+    },
+    {
+      "id": "pod_3",
+      "title": "Pixel & Play",
+      "description": "Análisis de la industria de los videojuegos, desarrollo indie y diseño de juegos.",
+      "host": "Mateo Silva",
+      "coverUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f",
+      "category": "Gaming & Esports",
+      "episodesCount": 35,
+      "rating": 4.7
+    },
+    {
+      "id": "pod_4",
+      "title": "Frontera Cósmica",
+      "description": "Divulgación científica sobre exploración espacial, IA y física cuántica.",
+      "host": "Dra. Sofía Torres",
+      "coverUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+      "category": "Ciencia & Futuro",
+      "episodesCount": 19,
+      "rating": 4.95
+    }
+  ],
+  "episodes": [
+    {
+      "id": "ep_101",
+      "title": "El Futuro de la IA Generativa en Android",
+      "description": "En este episodio analizamos el impacto de Gemini Nano y la ejecución de modelos On-Device en dispositivos móviles.",
+      "showName": "Code & Coffee",
+      "podcastId": "pod_1",
+      "duration": "45 min",
+      "durationSeconds": 2700,
+      "coverUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "tags": ["Android", "IA", "Kotlin", "Tech"],
+      "date": "2025-02-15",
+      "isFeatured": true,
+      "category": "Tecnología"
+    },
+    {
+      "id": "ep_102",
+      "title": "Jetpack Compose M3: Arquitectura y UI Expresiva",
+      "description": "Cómo construir interfaces modernas, adaptativas y responsivas utilizando Material 3 y Compose Navigation 3.",
+      "showName": "Code & Coffee",
+      "podcastId": "pod_1",
+      "duration": "52 min",
+      "durationSeconds": 3120,
+      "coverUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "tags": ["Compose", "UI/UX", "Android"],
+      "date": "2025-02-08",
+      "isFeatured": true,
+      "category": "Tecnología"
+    },
+    {
+      "id": "ep_103",
+      "title": "Sintetizadores Analógicos vs Digitales",
+      "description": "Un viaje por los osciladores, filtros y modulación que dieron forma al sonido de los años 80 y la era moderna.",
+      "showName": "Ondas Sintéticas",
+      "podcastId": "pod_2",
+      "duration": "38 min",
+      "durationSeconds": 2280,
+      "coverUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "tags": ["Música", "Síntesis", "Audio"],
+      "date": "2025-02-12",
+      "isFeatured": false,
+      "category": "Música & Producción"
+    },
+    {
+      "id": "ep_104",
+      "title": "Diseño de Niveles y Narrativa Emergente",
+      "description": "Entrevista con desarrolladores indie sobre cómo guiar al jugador sin tutoriales intrusivos.",
+      "showName": "Pixel & Play",
+      "podcastId": "pod_3",
+      "duration": "61 min",
+      "durationSeconds": 3660,
+      "coverUrl": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "tags": ["Gaming", "GameDev", "Diseño"],
+      "date": "2025-02-01",
+      "isFeatured": true,
+      "category": "Gaming & Esports"
+    },
+    {
+      "id": "ep_105",
+      "title": "Misiones a Marte y la Era de Starship",
+      "description": "Conversación sobre los desafíos logísticos y científicos de llevar la humanidad al planeta rojo.",
+      "showName": "Frontera Cósmica",
+      "podcastId": "pod_4",
+      "duration": "48 min",
+      "durationSeconds": 2880,
+      "coverUrl": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "tags": ["Espacio", "Ciencia", "Marte"],
+      "date": "2025-01-28",
+      "isFeatured": false,
+      "category": "Ciencia & Futuro"
+    },
+    {
+      "id": "ep_106",
+      "title": "Optimización de Rendimiento en Kotlin Coroutines",
+      "description": "Patrones avanzados de concurrencia, despacho de hilos y prevención de fugas de memoria.",
+      "showName": "Code & Coffee",
+      "podcastId": "pod_1",
+      "duration": "40 min",
+      "durationSeconds": 2400,
+      "coverUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "tags": ["Kotlin", "Coroutines", "Performance"],
+      "date": "2025-01-20",
+      "isFeatured": false,
+      "category": "Tecnología"
+    }
+  ],
+  "liveStreams": [
+    {
+      "id": "live_1",
+      "title": "STREAM LIVE: Maratón de Live Coding en Jetpack Compose",
+      "description": "Creando una app completa de streaming en tiempo real desde cero con Material 3.",
+      "streamerName": "Carlos Mendoza",
+      "coverUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e",
+      "streamUrl": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
+      "isLive": true,
+      "viewersCount": 1420,
+      "tags": ["LiveCoding", "Android", "Compose"],
+      "scheduledTime": "Transmitiendo ahora"
+    },
+    {
+      "id": "live_2",
+      "title": "Set de DJ Sintético en Directo desde la Cabina",
+      "description": "Sesión en vivo de Synthwave, Lo-Fi y Chillhop con visuales reactivos.",
+      "streamerName": "Elena Ramos",
+      "coverUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7",
+      "streamUrl": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
+      "isLive": true,
+      "viewersCount": 890,
+      "tags": ["MusicLive", "Synthwave", "DJ"],
+      "scheduledTime": "Transmitiendo ahora"
+    },
+    {
+      "id": "live_3",
+      "title": "Torneo Esports: Semifinal de Speedrunning",
+      "description": "Comentarios en vivo y análisis técnico de las mejores marcas del torneo.",
+      "streamerName": "Mateo Silva",
+      "coverUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420",
+      "streamUrl": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
+      "isLive": false,
+      "viewersCount": 0,
+      "tags": ["Esports", "Speedrun", "Gaming"],
+      "scheduledTime": "Hoy 20:00 UTC"
+    }
+  ]
+}
